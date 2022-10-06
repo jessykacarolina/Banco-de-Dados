@@ -37,7 +37,7 @@
 select * from tb_personagens where defesa > 1000 and defesa < 2000;
 select * from tb_personagens where nome like '%c%';*/
 
-select * from tb_personagens inner join tb_classes on tb_classes.id = tb_personagens.id_classe;
-select * from tb_personagens inner join tb_classes on tb_classes.id = tb_personagens.id_classe where classe = 'tanque';
+/*select * from tb_personagens inner join tb_classes on tb_classes.id = tb_personagens.id_classe;*/
+/*select * from tb_personagens inner join tb_classes on tb_classes.id = tb_personagens.id_classe where classe = 'tanque';*/
 
 
